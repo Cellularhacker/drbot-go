@@ -12,8 +12,8 @@ var (
 	adminAPIEndpoint = ""
 )
 
-// SetEndpoint - Mark: You should have to call this function while initializing step or before run main.
-func SetEndpoint(drbotAPIEndpoint, drbotChatAPIEndpoint, drbotAdminAPIEndpoint string) {
+// SetVariables - Mark: You should have to call this function while initializing step or before run main.
+func SetVariables(drbotAPIEndpoint, drbotChatAPIEndpoint, drbotAdminAPIEndpoint string) {
 	//	MARK: Check if it initialized
 	if drbotAPIEndpoint == "" {
 		logger.L.Fatalf("'drbotAPIEndpoint' is missing!")
