@@ -24,3 +24,6 @@ src/golang.org/
 .env*
 .env.*
 /assets/
+
+# OS files which automatically always being generated.
+.DS_Store
