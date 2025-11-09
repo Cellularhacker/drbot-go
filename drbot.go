@@ -1,7 +1,7 @@
 package drbot
 
 import (
-	"github.com/Cellularhacker/logger"
+	"github.com/Cellularhacker/logger-go"
 )
 
 var initialized = false
