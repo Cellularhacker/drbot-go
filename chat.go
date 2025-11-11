@@ -3,7 +3,7 @@ package drbot
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Cellularhacker/logger"
+	"github.com/Cellularhacker/logger-go"
 	"net/http"
 )
 
