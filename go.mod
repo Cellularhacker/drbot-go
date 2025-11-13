@@ -2,7 +2,9 @@ module github.com/Cellularhacker/drbot-go
 
 go 1.25
 
-require github.com/Cellularhacker/logger-go v1.0.8
+require (
+	github.com/Cellularhacker/logger-go v1.0.8
+)
 
 require (
 	github.com/onsi/ginkgo v1.16.5 // indirect
